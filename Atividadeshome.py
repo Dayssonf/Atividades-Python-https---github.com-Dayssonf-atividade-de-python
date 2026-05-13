@@ -1,6 +1,6 @@
 idade = int(input("QUal a sua idade? "))
 
-if idade <= 0:
+if idade < 0:
     print("Idade inválida! ")
 elif idade >= 1 and idade <=12:
     print("Criança")
